@@ -1,0 +1,17 @@
+name: vmf-tools
+version: 0.1.0
+
+authors:
+  - Ilia Lobsanov <ilia@nurey.com>
+
+dependencies:
+  dotenv:
+    github: gdotdesign/cr-dotenv
+
+targets:
+  vmf-tools:
+    main: src/vmf-tools.cr
+
+crystal: 0.29.0
+
+license: MIT
