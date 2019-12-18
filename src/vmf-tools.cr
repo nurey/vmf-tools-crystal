@@ -10,7 +10,7 @@ class VMF
   @config : Hash(String, String)
 
   def initialize
-    @config = Dotenv.load!("~/.vmf.env")
+    @config = Dotenv.load(Path["~/.vmf.env"].expand(home: true).to_s)
   end
 
   def servers : String
