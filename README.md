@@ -4,9 +4,20 @@ Command line utility to interact with VM Farms
 
 ## Installation
 
+1. Install Crystal
+
+   On Mac OS X with Homebrew:
+
+   ```
+   brew install crystal
+   ```
 1. Create a file to hold the access token at ~/.vmf.env:
     ```
     ACCESS_TOKEN=foo
+    ```
+1. Install dependencies:
+    ```
+    shards install
     ```
 1. Build the binary by running `make build-release`
 1. The binary is built as `./vmf-tools`
