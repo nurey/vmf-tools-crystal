@@ -12,6 +12,6 @@ targets:
   vmf-tools:
     main: src/vmf-tools.cr
 
-crystal: 0.29.0
+crystal: 0.32.1
 
 license: MIT
